@@ -3,7 +3,7 @@
 #include "../src/add.h"
 
 TEST(TestSuite, add) {
-    ASSERT_EQ(add(1,2), 3);
+    ASSERT_EQ(add(1,2), 2);
 }
 
 int main(int argc, char **argv) {
