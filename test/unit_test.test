@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="ros_buildfirm_test" type="ros_buildfirm_test" name="ros_buildfirm_test"/>
+    <test pkg="ros_buildfirm_test" type="ros_buildfirm_test_test_node" test-name="test_node"/>
+</launch>
